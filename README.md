@@ -27,6 +27,9 @@ command file decoder rules
 integrity checking (md5 sha1sum size owner group permission ...)
 
 + rootcheck (rootkit check)
+1.  Bird
+1.  McHale
+1.  Parish
 1.  stats fopen opendir
 2.  signatures of trojaned
 3.  check /dev
