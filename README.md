@@ -27,9 +27,9 @@ command file decoder rules
 integrity checking (md5 sha1sum size owner group permission ...)
 
 + rootcheck (rootkit check)
-1. stats fopen opendir
-2. signatures of trojaned
-3. check /dev
-4. permission problem
-5. hidden-processes trojaned-ps
-6. hidden-ports
+1.  stats fopen opendir
+2.  signatures of trojaned
+3.  check /dev
+4.  permission problem
+5.  hidden-processes trojaned-ps
+6.  hidden-ports
