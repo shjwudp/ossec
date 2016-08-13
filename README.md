@@ -30,9 +30,9 @@ integrity checking (md5 sha1sum size owner group permission ...)
 1.  Bird
 1.  McHale
 1.  Parish
-1.  stats fopen opendir
-2.  signatures of trojaned
-3.  check /dev
-4.  permission problem
-5.  hidden-processes trojaned-ps
-6.  hidden-ports
+<!--1.  stats fopen opendir-->
+<!--2.  signatures of trojaned-->
+<!--3.  check /dev-->
+<!--4.  permission problem-->
+<!--5.  hidden-processes trojaned-ps-->
+<!--6.  hidden-ports-->
