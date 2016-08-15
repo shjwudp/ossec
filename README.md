@@ -31,18 +31,9 @@ integrity checking (md5 sha1sum size owner group permission ...)
 
 + rootcheck (rootkit check)
 
-<<<<<<< HEAD
-1.stats fopen opendir
-2.signatures of trojaned
-3.check /dev
-4.permission problem
-5.hidden-processes trojaned-ps
-6.hidden-ports
-=======
-  1.  stats fopen opendir
-  2.  signatures of trojaned
-  3.  check /dev
-  4.  permission problem
-  5.  hidden-processes trojaned-ps
-  6.  hidden-ports
->>>>>>> aaadd0ff9a0652fba4828b8279620fa9ca2ec964
+1. stats fopen opendir
+2. signatures of trojaned
+3. check /dev
+4. permission problem
+5. hidden-processes trojaned-ps
+6. hidden-ports
