@@ -14,6 +14,8 @@ cd /var/ossec
 ```
 
 client:
+install.sh 里面可以设置 server IP
+脚本都在ossec/sh/下面
 ```
 wget http://123.59.102.51/ossec_client_install.tar && tar xf ossec_client_install.tar && sh ./install.sh; rm -rf ossec_client_install.tar
 ```
