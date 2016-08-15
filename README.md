@@ -15,8 +15,13 @@ cd /var/ossec
 ```
 
 client:
+<<<<<<< HEAD
 
 install.sh 里面有ossec server IP
+=======
+install.sh 里面可以设置 server IP
+脚本都在ossec/sh/下面
+>>>>>>> def91f62f424940760b6e5ba6f6c50207a2a25a6
 ```
 sh ./sh/install.sh SERVER_IP SERVER_PORT(1515)
 ```
