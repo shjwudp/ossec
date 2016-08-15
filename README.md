@@ -21,7 +21,7 @@ sh ./sh/install.sh SERVER_IP SERVER_PORT(1515)
 ```
 
 
-# Architecture
+# Features 
 
 + log
 
