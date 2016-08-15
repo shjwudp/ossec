@@ -3,6 +3,7 @@ BaishanCloud
 # install
 
 server:
+
 ```
 wget -q -O – https://www.atomicorp.com/installers/atomic | sh
 yum update -y
@@ -14,8 +15,10 @@ cd /var/ossec
 ```
 
 client:
+
+install.sh 里面有ossec server IP
 ```
-wget http://123.59.102.51/ossec_client_install.tar && tar xf ossec_client_install.tar && sh ./install.sh; rm -rf ossec_client_install.tar
+sh ./sh/install.sh SERVER_IP SERVER_PORT(1515)
 ```
 
 

@@ -4,8 +4,8 @@ cd "$(cd `dirname $0`; pwd)"
 
 ./atomic.sh
 
-server_ip=123.59.102.51
-server_authd_port=1515
+server_ip=$1
+server_authd_port=$2
 
 yum update -y
 
@@ -17,5 +17,3 @@ cd /var/ossec/
 
 bin/agent-auth -m $server_ip -p $server_authd_port
 bin/ossec-control restart
-
-# wget http://123.59.102.51/ossec_client_install.tar && tar xf ossec_client_install.tar && sh ./install.sh; rm -rf ossec_client_install.tar
