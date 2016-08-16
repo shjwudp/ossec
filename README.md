@@ -21,21 +21,39 @@ sh ./sh/install.sh SERVER_IP SERVER_PORT(1515)
 ```
 
 
-# Features 
+# Features
 
 + log
 
-command file decoder rules
+    command file decoder rules
 
 + syscheck
 
-integrity checking (md5 sha1sum size owner group permission ...)
+    integrity checking (md5 sha1sum size owner group permission ...)
 
 + rootcheck (rootkit check)
 
-1. stats fopen opendir
-2. signatures of trojaned
-3. check /dev
-4. permission problem
-5. hidden-processes trojaned-ps
-6. hidden-ports
+    1.  stats fopen opendir
+    1.  signatures of trojaned
+    1.  check /dev
+    1.  permission problem
+    1.  hidden-processes trojaned-ps
+    1.  hidden-ports
+
+# HELP
+
+默认ossec根目录：
+$OSSEC_HOME=/var/ossec
+
+配置文件：
+$OSSEC_HOME/etc/ossec.conf
+
+ossec启动停止命令：
+$OSSEC_HOME/bin/ossec-control
+
+ossec-server注册agent命令（执行后开始接受注册）：
+$OSSEC_HOME/bin/ossec-authd
+
+ossec-agent注册命令：
+$OSSEC_HOME/bin/agent-auth
+
