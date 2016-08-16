@@ -2,7 +2,11 @@
 
 cd "$(cd `dirname $0`; pwd)"
 
-./atomic.sh
+sh ./atomic.sh
+if [ "$?" != "0" ]; then
+    echo "Failed: sh ./atomic.sh"
+    exit 1
+fi
 
 server_ip=$1
 server_authd_port=$2
