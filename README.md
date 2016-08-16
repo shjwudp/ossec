@@ -43,17 +43,22 @@ sh ./sh/install.sh SERVER_IP SERVER_PORT(1515)
 # HELP
 
 默认ossec根目录：
+
 $OSSEC_HOME=/var/ossec
 
 配置文件：
+
 $OSSEC_HOME/etc/ossec.conf
 
 ossec启动停止命令：
+
 $OSSEC_HOME/bin/ossec-control
 
 ossec-server注册agent命令（执行后开始接受注册）：
+
 $OSSEC_HOME/bin/ossec-authd
 
 ossec-agent注册命令：
+
 $OSSEC_HOME/bin/agent-auth
 
